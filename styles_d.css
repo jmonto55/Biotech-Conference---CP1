@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+}
+
+a {
+    text-decoration: none;
+}
+
+.above_header {
+  width: 100%;
+  background-color: #3e3e3e;
+}
+
+.above_header_list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-right: 25px;
+  align-items: center;
+}
+
+.above_list_link {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.fb_icon_above {
+  display: inline-block;
+  width: 20px;
+  height: 20PX;
+  background-image: url(./assets/icons/facebook_logo.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.tt_icon_above {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(./assets/icons/twitter_logo.png);
+  background-size: cover;
+  margin-right: 35px;
+}
+
+.nav_var {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.nav_var_list {
+  list-style: none;
+  display: flex;
+  padding: 25px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_list_link {
+  margin-right: 20px;
+  color: black;
+}
+
+.nav_image {
+  display: inline-block;
+  width: 150px;
+  height: 24px;
+  background-image: url(./assets/icons/biotech_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+
+.home_section {
+  width: 100%;
+  height: 850px;
+  background: url(./assets/images/home_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome_container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.925);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10%;
+}
+
+.headline_one {
+  color: #eb5234;
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 500;
+}
+
+.headline_two {
+  background-image: url(./assets/images/background_r.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: clamp(3.5rem, 5vw, 10rem);
+  font-weight: 900;
+}
+
+.headline_text {
+  max-width: 80%;
+  font-size: clamp(0.8rem, 1.7vw, 1.7rem);
+  padding: 20px;
+  margin: 15px 0 25px 0;
+  border: solid #fff;
+  color: #3e3e3e;
+  background-color: rgb(243, 243, 243);
+}
+
+.headline_date {
+  font-size: clamp(0.8rem, 3vw, 2rem);
+  font-weight: 900;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+
+.headline_site {
+  color: #3e3e3e;
+}
+
+.program_section {
+  width: 100%;
+  height: 650px;
+  background-image: url(./assets/images/background_program.jpeg);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progam_section_title {
+  color: #fff;
+  border-bottom: solid #eb5234 1px;
+  width: 160px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.program_container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.program_container_child {
+  background-color: rgba(255, 255, 255, 0.178);
+  margin: 2px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.program_title {
+  color: #eb5234;
+  margin: 15px 0 15px 0;
+}
+
+.program_text {
+  color: #fff;
+}
+
+.program_section_footer {
+  color: #fff;
+  border-bottom: solid #fff 1px;
+}
+
+.ponents_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55PX;
+  background-image: url(./assets/icons/ponents_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.exhibition_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55PX;
+  background-image: url(./assets/icons/exhibition_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.forum_icon {
+  display: inline-block;
+  width: 60px;
+  height: 55PX;
+  background-image: url(./assets/icons/forum_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.workshop_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55PX;
+  background-image: url(./assets/icons/workshop_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.network_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55PX;
+  background-image: url(./assets/icons/network_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
