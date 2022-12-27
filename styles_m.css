@@ -1,1 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
 
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_var_mobile {
+  width: 100%;
+  display: flex;
+  padding: 3% 3% 3% 4%;
+  background-color: rgba(255, 255, 255, 0.925);
+}
+
+.burger_icon {
+  display: inline-block;
+  width: 30px;
+  height: 25px;
+}
+
+.nav_var_list_m {
+  display: none;
+}
+
+.nav_image {
+  display: inline-block;
+  width: 150px;
+  height: 24px;
+  background-image: url(./assets/icons/biotech_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+
+.home_section {
+  width: 100%;
+  height: 65vh;
+  background: url(./assets/images/home_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.welcome_container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.925);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4.5%;
+}
+
+.headline_one {
+  color: #eb5234;
+  font-size: clamp(1.2rem, 1vw, 2rem);
+  font-weight: 500;
+}
+
+.headline_two {
+  background-image: url(./assets/images/background_r.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: clamp(2rem, 5vw, 10rem);
+  font-weight: 900;
+}
+
+.headline_text {
+  max-width: 100%;
+  font-size: clamp(0.8rem, 1.7vw, 1.7rem);
+  padding: 20px;
+  margin: 15px 0 25px 0;
+  border: solid #fff;
+  color: #3e3e3e;
+  background-color: rgb(243, 243, 243);
+}
+
+.headline_date {
+  font-size: clamp(0.8rem, 3vw, 2rem);
+  font-weight: 900;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+
+.headline_site {
+  color: #3e3e3e;
+}
+
+.program_section {
+  width: 100%;
+  height: 930px;
+  background-image: url(./assets/images/background_program.jpeg);
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progam_section_title {
+  color: #fff;
+  width: 160px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.program_line {
+  width: 30px;
+  border-color: #ec5242;
+}
+
+.program_container {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.program_container_child {
+  background-color: rgba(255, 255, 255, 0.178);
+  margin: 2px;
+  padding: 15px 5px 15px 5px;
+  text-align: center;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.program_title {
+  color: #ec5242;
+  margin: 15px 0 15px 0;
+  width: 20%;
+  font-size: 18px;
+}
+
+.program_text {
+  color: #fff;
+  width: 60%;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.program_section_footer {
+  display: none;
+}
+
+.program_section_footer_m {
+  color: #fff;
+  background-color: #ec5242;
+  padding: 7%;
+  margin-top: 35px;
+}
+
+.ponents_icon {
+  display: inline-block;
+  width: 35px;
+  height: 35PX;
+  background-image: url(./assets/icons/ponents_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.exhibition_icon {
+  display: inline-block;
+  width: 35px;
+  height: 35PX;
+  background-image: url(./assets/icons/exhibition_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.forum_icon {
+  display: inline-block;
+  width: 40px;
+  height: 35PX;
+  background-image: url(./assets/icons/forum_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.workshop_icon {
+  display: inline-block;
+  width: 35px;
+  height: 35PX;
+  background-image: url(./assets/icons/workshop_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.network_icon {
+  display: inline-block;
+  width: 35px;
+  height: 35PX;
+  background-image: url(./assets/icons/network_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.speakers_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.speakers_sections_title {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.speakers_line {
+  width: 30px;
+  border-color: #ec5242;
+}
+
+.speakers_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3%;
+  justify-content: center;
+}
+
+.speaker {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  text-align: left;
+}
+
+.speaker_img_container {
+  position: relative;
+}
+
+.speaker_img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.speaker_background {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+}
+
+.speaker_info {
+  width: 50%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker_name {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.speaker_title {
+  color: #ec5242;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.speaker_line {
+  width: 20px;
+  margin-bottom: 15px;
+}
+
+.partners_container {
+  padding: 0 9px;
+  width: 100%;
+  height: auto;
+  background-color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0;
+}
+
+.pr {
+  width: 160px;
+  height: 70px;
+  display: inline-block;
+  margin: 15px;
+  margin-top: 24px;
+}
+
+.partner_one {
+  height: 130px;
+}
+
+.partner_two {
+  height: 60px;
+}
+
+.partner_three {
+  height: 130px;
+}
+
+.partner_four {
+  height: 60px;
+}
+
+.partner_five {
+  height: 60px
+}
+
+.partner_six {
+  height: 130px;
+}
+
+.last_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5%;
+}
+
+.footer_logo {
+  display: inline-block;
+  width: 100%;
+  height: 24px;
+  background-image: url(./assets/icons/biotech_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+}
+
+.last_footer p {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}

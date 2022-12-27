@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./assets/icons/page_logo.png"  type="image/icon type">
-    <link rel="stylesheet" href="./styles_m.css">
-    <link rel="stylesheet" href="./styles_d.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 768px)" href="./styles_m.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 769px)" href="./styles_d.css">
     <title>Biotech Summit</title>
   </head>
   <body>
@@ -31,11 +31,22 @@
                 <li class="nav_list_li"><a class="nav_list_link register" href="">Register</a></li>
             </ul>
         </nav>
-
     </header>
+    
 
     <main>
         <section class="home_section"  id="home">
+            <nav class="nav_var_mobile">
+                <img class="burger_icon" src="./assets/icons/burger_icon.png"></img>
+                <img class="close_icon"></img>
+                <ul class="nav_var_list_m">
+                    <li class="nav_list_li_m"><a class="nav_list_link_m" href="">About</a></li>
+                    <li class="nav_list_li_m"><a class="nav_list_link_m" href="">Program</a></li>
+                    <li class="nav_list_li_m"><a class="nav_list_link_m" href="">Speakers</a></li>
+                    <li class="nav_list_li_m"><a class="nav_list_link_m" href="">Sponsors</a></li>
+                    <li class="nav_list_li_m"><a class="nav_list_link_m register_m" href="">Register</a></li>
+                </ul>
+            </nav>
             <div class="welcome_container">
                 <h2 class="headline_one">"Hello! Biotech enthusiasts"</h2>
                 <h1 class="headline_two">WORLD BIOTECHNOLOGY<br>CONFERENCE 2023</h1>
@@ -75,7 +86,8 @@
                     <p class="program_text">Take advantage of this place full of experts in the biotech field, say hi, make new contacts and expand your professional net.</p>
                 </div>
             </div>
-            <p class="program_section_footer">SEE WHOLE PROGRAM</p>
+            <p class="program_section_footer">SEE THE WHOLE PROGRAM</p>
+            <p class="program_section_footer_m">Join Biotech World Summit 2023</p>
         </section>
 
         <section class="speakers_section" id="speakers">
@@ -83,56 +95,9 @@
             <hr class="speakers_line">
             <div class="speakers_container">
                 <div class="speaker">
-                    <div>
-                        <img class="speaker_img" src="./assets/speakers/speaker_one.jpg" alt="">
-                    </div>
-                    <div class="speaker_info">
-                        <h2 class="speaker_name">Carlos Smidth</h2>
-                        <h3 class="speaker_title">Biotech Investor</h3>
-                        <hr class="speaker_line">
-                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
-                    </div>
-                </div>
-
-                <div class="speaker">
-                    <div>
-                        <img class="speaker_img" src="./assets/speakers/speaker_two.jpg" alt="">
-                    </div>
-                    <div class="speaker_info">
-                        <h2 class="speaker_name">Carlos Smidth</h2>
-                        <h3 class="speaker_title">Biotech Investor</h3>
-                        <hr class="speaker_line">
-                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
-                    </div>
-                </div>
-
-                <div class="speaker">
-                    <div>
-                        <img class="speaker_img" src="./assets/speakers/speaker_three.jpg" alt="">
-                    </div>
-                    <div class="speaker_info">
-                        <h2 class="speaker_name">Carlos Smidth</h2>
-                        <h3 class="speaker_title">Biotech Investor</h3>
-                        <hr class="speaker_line">
-                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
-                    </div>
-                </div>
-
-                <div class="speaker">
-                    <di>
-                        <img class="speaker_img" src="./assets/speakers/speaker_four.jpg" alt="">
-                    </di>
-                    <div class="speaker_info">
-                        <h2 class="speaker_name">Carlos Smidth</h2>
-                        <h3 class="speaker_title">Biotech Investor</h3>
-                        <hr class="speaker_line">
-                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
-                    </div>
-                </div>
-
-                <div class="speaker">
-                    <div>
-                        <img class="speaker_img" src="./assets/speakers/speaker_five.jpg" alt="">
+                    <div class="speaker_img_container">
+                        <img class="speaker_background" src="./assets/images/speaker_backg.gif"></img>
+                        <img class="speaker_img" src="./assets/speakers/speaker_one.jpg" alt="speaker photo">
                     </div>
                     <div class="speaker_info">
                         <h2 class="speaker_name">Carlos Smidth</h2>
@@ -144,7 +109,60 @@
 
                 <div class="speaker">
                     <div class="speaker_img_container">
-                        <img class="speaker_img" src="./assets/speakers/speaker_six.jpg" alt="">
+                        <img class="speaker_background" src="./assets/images/speaker_backg.gif"></img>
+                        <img class="speaker_img" src="./assets/speakers/speaker_two.jpg" alt="speaker photo">
+                    </div>
+                    <div class="speaker_info">
+                        <h2 class="speaker_name">Carlos Smidth</h2>
+                        <h3 class="speaker_title">Biotech Investor</h3>
+                        <hr class="speaker_line">
+                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <div class="speaker_img_container">
+                        <img class="speaker_background" src="./assets/images/speaker_backg.gif"></img>
+                        <img class="speaker_img" src="./assets/speakers/speaker_three.jpg" alt="speaker photo">
+                    </div class="speaker_img_container">
+                    <div class="speaker_info">
+                        <h2 class="speaker_name">Carlos Smidth</h2>
+                        <h3 class="speaker_title">Biotech Investor</h3>
+                        <hr class="speaker_line">
+                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <di class="speaker_img_container">
+                        <img class="speaker_background" src="./assets/images/speaker_backg.gif"></img>
+                        <img class="speaker_img" src="./assets/speakers/speaker_four.jpg" alt="speaker photo">
+                    </di>
+                    <div class="speaker_info">
+                        <h2 class="speaker_name">Carlos Smidth</h2>
+                        <h3 class="speaker_title">Biotech Investor</h3>
+                        <hr class="speaker_line">
+                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <div class="speaker_img_container">
+                        <img class="speaker_background" src="./assets/images/speaker_backg.gif"></img>
+                        <img class="speaker_img" src="./assets/speakers/speaker_five.jpg" alt="speaker photo">
+                    </div>
+                    <div class="speaker_info">
+                        <h2 class="speaker_name">Carlos Smidth</h2>
+                        <h3 class="speaker_title">Biotech Investor</h3>
+                        <hr class="speaker_line">
+                        <p class="speaker_text">Chair at CSB Invest, leading venture fund in the anti cancer therapies field.</p>
+                    </div>
+                </div>
+
+                <div class="speaker">
+                    <div class="speaker_img_container">
+                        <img class="speaker_background" src="./assets/images/speaker_backg.gif"></img>
+                        <img class="speaker_img" src="./assets/speakers/speaker_six.jpg" alt="speaker photo">
                     </div>
                     <div class="speaker_info">
                         <h2 class="speaker_name">Carlos Smidth</h2>

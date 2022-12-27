@@ -23,6 +23,10 @@ a {
   background-color: #3e3e3e;
 }
 
+.nav_var_mobile {
+  display: none;
+}
+
 .above_header_list {
   display: flex;
   list-style: none;
@@ -80,8 +84,8 @@ a {
 }
 
 .register {
-  color: #eb5234;
-  border: solid #eb5234 2px;
+  color: #ec5242;
+  border: solid #ec5242 2px;
   padding: 10px;
 }
 
@@ -115,7 +119,7 @@ a {
 }
 
 .headline_one {
-  color: #eb5234;
+  color: #ec5242;
   font-size: clamp(1.8rem, 3vw, 2.8rem);
   font-weight: 500;
 }
@@ -168,8 +172,8 @@ a {
 }
 
 .program_line {
-  width: 15%;
-  border-color: #eb5234;
+  width: 30px;
+  border-color: #ec5242;
 }
 
 .program_container {
@@ -187,7 +191,7 @@ a {
 }
 
 .program_title {
-  color: #eb5234;
+  color: #ec5242;
   margin: 15px 0 15px 0;
 }
 
@@ -200,6 +204,10 @@ a {
   border-bottom: solid #fff 1px;
   cursor: pointer;
   margin-bottom: 40px;
+}
+
+.program_section_footer_m {
+  display: none;
 }
 
 .ponents_icon {
@@ -247,11 +255,6 @@ a {
   margin-right: 10px;
 }
 
-.speaker_img {
-  width: 120px;
-  height: 165px;
-}
-
 .speakers_section {
     display: flex;
     flex-direction: column;
@@ -268,8 +271,8 @@ a {
 }
 
 .speakers_line {
-  width: 25%;
-  border-color: #eb5234;
+  width: 30px;
+  border-color: #ec5242;
 }
 
 .speakers_container {
@@ -286,7 +289,26 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 38px;
-  text-align: center;
+  text-align: left;
+}
+
+.speaker_img_container {
+  position: relative;
+}
+
+.speaker_img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.speaker_background {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
 }
 
 .speaker_info {
@@ -297,22 +319,19 @@ a {
 }
 
 .speaker_name {
-  text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .speaker_title {
-  color: #eb5234;
+  color: #ec5242;
   margin-bottom: 10px;
   font-style: italic;
   font-weight: 400;
-  text-align: left;
-  margin-left: 10px;
 }
 
 .speaker_line {
-  width: 40%;
-  margin-left: 10px;
+  width: 20px;
   margin-bottom: 15px;
 }
 
@@ -331,30 +350,32 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 75px 0;
+  align-items: center;
+  margin: 65px 0;
 }
 
 .pr {
-  width: 200px;
+  width: 160px;
   height: 70px;
   display: inline-block;
   margin: 15px;
+  margin-top: 24px;
 }
 
 .partner_one {
-  height: 150px;
+  height: 130px;
 }
 
 .partner_two {
-  height: 70px;
+  height: 60px;
 }
 
 .partner_three {
-  height: 150px;
+  height: 130px;
 }
 
 .partner_four {
-  height: 70px;
+  height: 60px;
 }
 
 .partner_five {
@@ -362,7 +383,7 @@ a {
 }
 
 .partner_six {
-  height: 160px;
+  height: 130px;
 }
 
 .last_footer {
