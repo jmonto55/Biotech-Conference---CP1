@@ -317,7 +317,7 @@ a {
 }
 
 .partners_container {
-  padding-top: 80px;
+  padding: 0 9px;
   width: 100%;
   height: auto;
   background-color: #3e3e3e;
@@ -369,16 +369,21 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   padding: 5%;
 }
 
 .footer_logo {
   display: inline-block;
-  width: 350px;
+  width: 30%;
   height: 24px;
   background-image: url(./assets/icons/biotech_logo.png);
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 40px;
+}
+
+.last_footer p {
+  width: 60%;
 }
