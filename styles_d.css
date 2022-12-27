@@ -45,6 +45,7 @@ a {
   background-image: url(./assets/icons/facebook_logo.png);
   background-size: cover;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .tt_icon_above {
@@ -54,6 +55,7 @@ a {
   background-image: url(./assets/icons/twitter_logo.png);
   background-size: cover;
   margin-right: 35px;
+  cursor: pointer;
 }
 
 .nav_var {
@@ -77,6 +79,12 @@ a {
   color: black;
 }
 
+.register {
+  color: #eb5234;
+  border: solid #eb5234 2px;
+  padding: 10px;
+}
+
 .nav_image {
   display: inline-block;
   width: 150px;
@@ -89,7 +97,7 @@ a {
 
 .home_section {
   width: 100%;
-  height: 850px;
+  height: 100vh;
   background: url(./assets/images/home_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -143,7 +151,7 @@ a {
 
 .program_section {
   width: 100%;
-  height: 650px;
+  height: 700px;
   background-image: url(./assets/images/background_program.jpeg);
   padding: 5%;
   display: flex;
@@ -153,11 +161,15 @@ a {
 
 .progam_section_title {
   color: #fff;
-  border-bottom: solid #eb5234 1px;
   width: 160px;
   padding-bottom: 10px;
   text-align: center;
-  margin-top: 24px;
+  margin-top: 28px;
+}
+
+.program_line {
+  width: 15%;
+  border-color: #eb5234;
 }
 
 .program_container {
@@ -186,6 +198,8 @@ a {
 .program_section_footer {
   color: #fff;
   border-bottom: solid #fff 1px;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .ponents_icon {
@@ -231,4 +245,140 @@ a {
   background-image: url(./assets/icons/network_icon.png);
   background-size: cover;
   margin-right: 10px;
+}
+
+.speaker_img {
+  width: 120px;
+  height: 165px;
+}
+
+.speakers_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.speakers_sections_title {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.speakers_line {
+  width: 25%;
+  border-color: #eb5234;
+}
+
+.speakers_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3%;
+  justify-content: center;
+}
+
+.speaker {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  text-align: center;
+}
+
+.speaker_info {
+  width: 50%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker_name {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.speaker_title {
+  color: #eb5234;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.speaker_line {
+  width: 40%;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.partners_container {
+  padding-top: 80px;
+  width: 100%;
+  height: auto;
+  background-color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 75px 0;
+}
+
+.pr {
+  width: 200px;
+  height: 70px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.partner_one {
+  height: 150px;
+}
+
+.partner_two {
+  height: 70px;
+}
+
+.partner_three {
+  height: 150px;
+}
+
+.partner_four {
+  height: 70px;
+}
+
+.partner_five {
+  height: 60px
+}
+
+.partner_six {
+  height: 160px;
+}
+
+.last_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+}
+
+.footer_logo {
+  display: inline-block;
+  width: 350px;
+  height: 24px;
+  background-image: url(./assets/icons/biotech_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
 }
