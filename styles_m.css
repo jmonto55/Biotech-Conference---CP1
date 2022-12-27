@@ -30,29 +30,55 @@ a {
   display: inline-block;
   width: 28px;
   height: 25px;
+  position: fixed;
+  z-index: 99;
 }
 
-.nav_var_list_m {
+.close_icon {
+  display: inline-block;
+  width: 28px;
+  height: 25px;
+  z-index: 99;
+  position: fixed;
+}
+
+.inactive {
   display: none;
 }
 
-.nav_image {
-  display: inline-block;
-  width: 150px;
-  height: 24px;
-  background-image: url(./assets/icons/biotech_logo.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-left: 50px;
+.nav_var_list_m {
+  position: fixed;
+  left: 0;
+  top: 0;
+  list-style: none;
+  width: 375px;
+  height: 100vh;
+  background-image: url(./assets/images/background_program.jpeg);
+  opacity: 0.99;
+  text-align: left;
+  padding: 10%;
+  font-size: 50px;
+  line-height: 80px;
+  padding-top: 100px;
+  z-index: 98;
+}
+
+.nav_list_li_m {
+  margin-top: 30px;
+}
+
+.nav_li {
+  color: #ec5242;
+  font-weight: 400;
 }
 
 .home_section {
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   background: url(./assets/images/home_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 24px;
+  padding-bottom: 56px;
 }
 
 .welcome_container {
@@ -68,7 +94,7 @@ a {
 
 .headline_one {
   color: #eb5234;
-  font-size: clamp(1.2rem, 1vw, 2rem);
+  font-size: clamp(1.2rem, 3vw, 3rem);
   font-weight: 500;
 }
 
@@ -76,7 +102,7 @@ a {
   background-image: url(./assets/images/background_r.jpg);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: clamp(2rem, 5vw, 10rem);
+  font-size: clamp(2rem, 7vw, 10rem);
   font-weight: 900;
 }
 
