@@ -22,13 +22,13 @@ a {
 .nav_var_mobile {
   width: 100%;
   display: flex;
-  padding: 3% 3% 3% 4%;
+  padding: 5%;
   background-color: rgba(255, 255, 255, 0.925);
 }
 
 .burger_icon {
   display: inline-block;
-  width: 30px;
+  width: 28px;
   height: 25px;
 }
 
@@ -103,7 +103,7 @@ a {
 
 .program_section {
   width: 100%;
-  height: 930px;
+  max-height: 1200px;
   background-image: url(./assets/images/background_program.jpeg);
   padding: 3%;
   display: flex;
@@ -164,7 +164,7 @@ a {
   color: #fff;
   background-color: #ec5242;
   padding: 7%;
-  margin-top: 35px;
+  margin: 35px 0;
 }
 
 .ponents_icon {
