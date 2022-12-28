@@ -78,18 +78,17 @@ a {
   background: url(./assets/images/home_background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 56px;
 }
 
 .welcome_container {
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   background-color: rgba(255, 255, 255, 0.925);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   padding: 4.5%;
+  padding-top: 60px;
 }
 
 .headline_one {
@@ -379,13 +378,13 @@ a {
 /* About Me Page */
 .about_container {
   width: 100%;
-  height: 500px;
+  height: 65vh;
   background-color: rgba(255, 255, 255, 0.925);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 5%;
+  padding-top: 50px;
 }
 
 .about_title {
@@ -419,7 +418,7 @@ a {
 
 .about_mail {
   font-size: 16px;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .logo_section {
@@ -517,8 +516,9 @@ a {
 
 .headline_about {
   color: #eb5234;
-  font-size: clamp(1rem, 3vw, 3rem);
+  font-size: clamp(1.2rem, 3vw, 3rem);
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .one {

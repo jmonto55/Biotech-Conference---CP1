@@ -4,6 +4,7 @@ const navList = document.querySelector('.nav_var_list_m');
 const navProgram = document.querySelector('.nav_list_link_p');
 const navSpeakers = document.querySelector('.nav_list_link_s');
 const navPartners = document.querySelector('.nav_list_link_pa');
+const about = document.querySelector('.about');
 const speakersData = [
   {
     name: 'Carlos smidth',
