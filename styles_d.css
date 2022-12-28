@@ -325,14 +325,15 @@ a {
 
 .speaker_title {
   color: #ec5242;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-style: italic;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .speaker_line {
   width: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 .partners_container {

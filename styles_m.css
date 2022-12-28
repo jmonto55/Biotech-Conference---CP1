@@ -316,7 +316,7 @@ a {
 
 .speaker_line {
   width: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 .speaker_text {
@@ -340,7 +340,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 65px 0;
+  margin: 20px 0 65px 0;
 }
 
 .pr {
