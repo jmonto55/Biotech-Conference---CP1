@@ -331,7 +331,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .partners {
@@ -344,35 +344,11 @@ a {
 }
 
 .pr {
-  width: 160px;
-  height: 70px;
+  width: 135px;
+  height: 45px;
   display: inline-block;
   margin: 15px;
   margin-top: 24px;
-}
-
-.partner_one {
-  height: 130px;
-}
-
-.partner_two {
-  height: 60px;
-}
-
-.partner_three {
-  height: 130px;
-}
-
-.partner_four {
-  height: 60px;
-}
-
-.partner_five {
-  height: 60px
-}
-
-.partner_six {
-  height: 130px;
 }
 
 .last_footer {
@@ -403,19 +379,18 @@ a {
 /* About Me Page */
 .about_container {
   width: 100%;
-  height: 100%;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.925);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5%;
-  padding-top: 10%;
 }
 
 .about_title {
   color:#ec5242;
-  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-size: clamp(1.5rem, 4vw, 5rem);
   font-weight: 900;
   text-align: center;
   margin-bottom: 15px;
@@ -427,10 +402,9 @@ a {
 }
 
 .about_text {
-  max-width: 80%;
-  font-size: clamp(1rem, 1.7vw, 1.5rem);
+  max-width: 100%;
   line-height: 150%;
-  padding: 40px;
+  padding: 10px;
   margin: 15px 0 25px 0;
   border: solid #fff;
   color: #3e3e3e;
@@ -439,8 +413,12 @@ a {
   margin-bottom: 40px;
 }
 
+.about_site {
+  text-align: center;
+}
+
 .about_mail {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 12px;
 }
 
@@ -450,6 +428,8 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 5%;
+  text-align: center;
+  border-top: solid #d3d3d3 2px;
 }
 
 .logo_title {
@@ -458,7 +438,7 @@ a {
 
 .logo_text {
   margin: 20px;
-  width: 60%;
+  width: 100%;
   text-align: center;
 }
 
@@ -469,14 +449,15 @@ a {
 }
 
 .logo {
-  width: 380px;
+  width: 300px;
 }
 
 .past_img_container {
   display: flex;
-  justify-content: space-around;
-  min-width: 760px;
-  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 48px 0;
 }
 
 .past_img_one {
@@ -488,6 +469,7 @@ a {
   justify-content: center;
   align-items: center;
   color: #fff;
+  margin-bottom: 24px;
 }
 
 .past_img_two {
@@ -509,25 +491,36 @@ a {
 
 .about_footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
   padding: 5%;
-  background-color: #3e3e3e;
+  background-color: #fff;
 }
 
 .about_footer p {
-  width: 60%;
-  color: #fff;
+  width: 100%;
+  color: #000;
+  text-align: center;
 }
 
 .about_logo {
   display: inline-block;
-  width: 30%;
+  width: 100%;
   height: 24px;
-  background-image: url(./assets/icons/biotech_logo_white.png);
+  background-image: url(./assets/icons/biotech_logo.png);
   background-position: center;
   background-repeat: no-repeat;
-  margin-right: 40px;
+  margin: 24px 0;
+}
+
+.headline_about {
+  color: #eb5234;
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-weight: 500;
+}
+
+.one {
+  display: none;
 }

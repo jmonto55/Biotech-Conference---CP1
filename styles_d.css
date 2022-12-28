@@ -356,35 +356,11 @@ a {
 }
 
 .pr {
-  width: 160px;
-  height: 70px;
+  width: 135px;
+  height: 45px;
   display: inline-block;
   margin: 15px;
   margin-top: 24px;
-}
-
-.partner_one {
-  height: 130px;
-}
-
-.partner_two {
-  height: 60px;
-}
-
-.partner_three {
-  height: 130px;
-}
-
-.partner_four {
-  height: 60px;
-}
-
-.partner_five {
-  height: 60px
-}
-
-.partner_six {
-  height: 130px;
 }
 
 .last_footer {
@@ -547,3 +523,14 @@ a {
   margin-right: 40px;
 }
 
+.headline_about {
+  display: none;
+}
+
+.two {
+  display: none;
+}
+
+.about_partners_container {
+  display: none;
+}
