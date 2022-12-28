@@ -7,13 +7,13 @@ const navPartners = document.querySelector('.nav_list_link_pa');
 const speakersData = [
   {
     name: 'Carlos smidth',
-    title: 'Professor od Biotechnology at ULC Berkeley, California',
+    title: 'Professor of Biotechnology at ULC Berkeley, California',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_one.jpg'
   },
 
   {
-    name: 'Benjamin bottom',
+    name: 'Benjamin Bottom',
     title: 'Investor and chairman of BLP ventures, Vancouver',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_two.jpg'
@@ -49,6 +49,7 @@ const speakersData = [
 
 ];
 
+// Mobile Menu Open/Close
 function toggleActive () {
   burgerMenu.classList.toggle('inactive');
   closeIcon.classList.toggle('inactive');
@@ -67,6 +68,67 @@ navProgram.addEventListener('click', toggleActive);
 navSpeakers.addEventListener('click', toggleActive);
 
 navPartners.addEventListener('click', toggleActive);
+
+// Speakers Section Dynamic Creation
+const speakersSection = document.querySelector('.speakers_section');
+
+const speakersSectionTitle = document.createElement('h2');
+speakersSectionTitle.innerText = 'Featured Speakers';
+speakersSectionTitle.className = 'speakers_sections_title';
+speakersSection.append(speakersSectionTitle);
+
+const speakersLine = document.createElement('hr');
+speakersLine.classList.add('speakers_line');
+speakersSection.append(speakersLine);
+
+const speakersContainer = document.createElement('div');
+speakersContainer.classList.add('speakers_container');
+speakersSection.append(speakersContainer);
+
+for (let i = 0; i < speakersData.length; i +=1) {
+  const speaker = document.createElement('div');
+  speaker.classList.add('speaker');
+
+  const speakerImgContainer = document.createElement('div');
+  speakerImgContainer.classList.add('speaker_img_container');
+  speaker.append(speakerImgContainer);
+
+  const speakerBG = document.createElement('img');
+  speakerBG.classList.add('speaker_background');
+  speakerBG.src = './assets/images/speaker_backg.gif';
+  speakerImgContainer.append(speakerBG);
+
+  const speakerImg = document.createElement('img');
+  speakerImg.classList.add('speaker_img');
+  speakerImg.src = speakersData[i].photo;
+  speakerImgContainer.append(speakerImg);
+  
+  const speakerInfo = document.createElement('div');
+  speakerInfo.classList.add('speaker_info');
+  speaker.append(speakerInfo);
+
+  const speakerName = document.createElement('h2');
+  speakerName.classList.add('speaker_name');
+  speakerName.innerText = speakersData[i].name;
+  speakerInfo.append(speakerName);
+
+  const speakerTitle = document.createElement('h3');
+  speakerTitle.classList.add('speaker_title');
+  speakerTitle.innerText = speakersData[i].title;
+  speakerInfo.append(speakerTitle);
+
+  const speakerLine = document.createElement('hr');
+  speakerLine.classList.add('speaker_line');
+  speakerInfo.append(speakerLine);
+
+  const speakerText = document.createElement('p');
+  speakerText.classList.add('speaker_text');
+  speakerText.innerText = speakersData[i].description;
+  speakerInfo.append(speakerText);
+
+  speakersContainer.append(speaker);
+}
+
 
 
 
