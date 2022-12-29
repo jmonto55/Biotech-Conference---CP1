@@ -20,7 +20,7 @@ a {
 
 .above_header {
   width: 100%;
-  background-color: #3e3e3e;
+  background-color: #272a31;
 }
 
 .nav_var_mobile {
@@ -40,6 +40,10 @@ a {
   color: #fff;
   margin-right: 20px;
   font-size: 15px;
+}
+
+.above_list_link:hover {
+  color: rgba(255, 255, 255, 0.575);
 }
 
 .fb_icon_above {
@@ -68,12 +72,12 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
+  padding: 0.9%;
 }
 
 .nav_var_list {
   list-style: none;
   display: flex;
-  padding: 25px;
   justify-content: flex-end;
   align-items: center;
 }
@@ -81,18 +85,30 @@ a {
 .nav_list_link {
   margin-right: 20px;
   color: black;
+  transition: ease all 0.5s;
+  padding: 10px;
 }
+
+.nav_list_link:hover {
+  color: #ec5242;
+} 
 
 .register {
   color: #ec5242;
   border: solid #ec5242 2px;
   padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.nav_list_li:hover {
+  transform: scale(1.05);
 }
 
 .nav_image {
   display: inline-block;
-  width: 150px;
-  height: 24px;
+  width: 198px;
+  height: 34px;
   background-image: url(./assets/icons/biotech_logo.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -188,6 +204,12 @@ a {
   padding: 20px;
   text-align: center;
   margin-bottom: 48px;
+  transition: ease all 0.5s;
+  cursor: pointer;
+}
+
+.program_container_child:hover {
+  transform: scale(1.04);
 }
 
 .program_title {
@@ -337,10 +359,9 @@ a {
 }
 
 .partners_container {
-  padding: 0 9px;
   width: 100%;
   height: auto;
-  background-color: #3e3e3e;
+  background-color: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -350,14 +371,13 @@ a {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 65px 0;
 }
 
 .pr {
-  width: 135px;
-  height: 45px;
+  height: 35px;
   display: inline-block;
   margin: 15px;
   margin-top: 24px;
@@ -369,14 +389,14 @@ a {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 5%;
+  padding: 4%;
 }
 
 .footer_logo {
   display: inline-block;
   width: 30%;
-  height: 24px;
-  background-image: url(./assets/icons/biotech_logo.png);
+  height: 34px;
+  background-image: url(./assets/icons/biotech_logo_black.png);
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 40px;
@@ -516,7 +536,7 @@ a {
 .about_logo {
   display: inline-block;
   width: 30%;
-  height: 24px;
+  height: 34px;
   background-image: url(./assets/icons/biotech_logo_white.png);
   background-position: center;
   background-repeat: no-repeat;
