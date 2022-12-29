@@ -4,55 +4,54 @@ const navList = document.querySelector('.nav_var_list_m');
 const navProgram = document.querySelector('.nav_list_link_p');
 const navSpeakers = document.querySelector('.nav_list_link_s');
 const navPartners = document.querySelector('.nav_list_link_pa');
-const about = document.querySelector('.about');
 const mobileLogo = document.querySelector('.mobile_icon');
 const speakersData = [
   {
     name: 'Carlos smidth',
     title: 'Professor of Biotechnology at ULC Berkeley, California',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
-    photo: './assets/speakers/speaker_one.jpg'
+    photo: './assets/speakers/speaker_one.jpg',
   },
 
   {
     name: 'Benjamin Bottom',
     title: 'Investor and chairman of BLP ventures, Vancouver',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
-    photo: './assets/speakers/speaker_two.jpg'
+    photo: './assets/speakers/speaker_two.jpg',
   },
 
   {
     name: 'David Kurvalrtz',
     title: 'Bioethicist, autor of the book: editing human germline, Harvard, Boston',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
-    photo: './assets/speakers/speaker_three.jpg'
+    photo: './assets/speakers/speaker_three.jpg',
   },
 
   {
     name: 'Alexa Van Dourzem',
     title: 'Molecular Genetist, CEO of customRNA Labs, San Mateo, California',
     description: 'she has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
-    photo: './assets/speakers/speaker_four.jpg'
+    photo: './assets/speakers/speaker_four.jpg',
   },
 
   {
     name: 'Juliana Franco',
     title: 'Director of the Metabolic and Cancer Research Center, Barcelona',
     description: 'she has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
-    photo: './assets/speakers/speaker_five.jpg'
+    photo: './assets/speakers/speaker_five.jpg',
   },
 
   {
     name: 'Irina Jakovkish',
     title: 'Transhumanism art creator, director of the Modern Art Museum, Vienna',
     description: 'she has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
-    photo: './assets/speakers/speaker_six.jpg'
+    photo: './assets/speakers/speaker_six.jpg',
   },
 
 ];
 
 // Mobile Menu Open/Close
-function toggleActive () {
+function toggleActive() {
   burgerMenu.classList.toggle('inactive');
   closeIcon.classList.toggle('inactive');
   navList.classList.toggle('inactive');
@@ -62,7 +61,7 @@ burgerMenu.addEventListener('click', toggleActive);
 
 closeIcon.addEventListener('click', () => {
   toggleActive();
-  window.location.assign("#");
+  window.location.assign('#');
 });
 
 navProgram.addEventListener('click', toggleActive);
@@ -72,7 +71,7 @@ navSpeakers.addEventListener('click', toggleActive);
 navPartners.addEventListener('click', toggleActive);
 
 mobileLogo.addEventListener('click', () => {
-  window.location.assign("./index.html#");
+  window.location.assign('./index.html#');
 });
 
 // Speakers Section Dynamic Creation
@@ -91,7 +90,7 @@ const speakersContainer = document.createElement('div');
 speakersContainer.classList.add('speakers_container');
 speakersSection.append(speakersContainer);
 
-for (let i = 0; i < speakersData.length; i +=1) {
+for (let i = 0; i < speakersData.length; i += 1) {
   const speaker = document.createElement('div');
   speaker.classList.add('speaker');
 
@@ -108,7 +107,7 @@ for (let i = 0; i < speakersData.length; i +=1) {
   speakerImg.classList.add('speaker_img');
   speakerImg.src = speakersData[i].photo;
   speakerImgContainer.append(speakerImg);
-  
+
   const speakerInfo = document.createElement('div');
   speakerInfo.classList.add('speaker_info');
   speaker.append(speakerInfo);
@@ -134,6 +133,3 @@ for (let i = 0; i < speakersData.length; i +=1) {
 
   speakersContainer.append(speaker);
 }
-
-
-
