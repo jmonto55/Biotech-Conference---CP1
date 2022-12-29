@@ -129,12 +129,12 @@ a {
   justify-content: center;
   align-items: flex-start;
   padding: 5%;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .headline_one {
   color: #ec5242;
-  font-size: clamp(32px, 4vw, 64px);
+  font-size: 3.5vw;
   font-weight: 300;
 }
 
@@ -142,14 +142,14 @@ a {
   background-image: url(./assets/images/background_r.jpg);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: clamp(48px, 8vw, 109px);
+  font-size: 7vw;
   font-weight: 900;
 }
 
 .headline_text {
   width: 80%;
-  max-width: 1000px;
-  font-size: clamp(19px, 1.7vw, 28px);
+  max-width: 1200px;
+  font-size: 22px;
   padding: 20px;
   margin: 15px 0 25px 0;
   border: solid #fff;
@@ -158,7 +158,7 @@ a {
 }
 
 .headline_date {
-  font-size: clamp(13px, 3vw, 32px);
+  font-size: 30px;
   font-weight: 900;
   color: #3e3e3e;
   margin-bottom: 10px;
@@ -421,7 +421,7 @@ a {
 
 .about_title {
   color: #ec5242;
-  font-size: clamp(56px, 5vw, 80px);
+  font-size: 5vw;
   font-weight: 900;
   text-align: center;
   margin-bottom: 15px;
@@ -434,7 +434,7 @@ a {
 
 .about_text {
   max-width: 80%;
-  font-size: clamp(16px, 1.7vw, 24px);
+  font-size: 22px;
   line-height: 150%;
   padding: 40px;
   margin: 15px 0 25px 0;
