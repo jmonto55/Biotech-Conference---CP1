@@ -5,6 +5,7 @@ const navProgram = document.querySelector('.nav_list_link_p');
 const navSpeakers = document.querySelector('.nav_list_link_s');
 const navPartners = document.querySelector('.nav_list_link_pa');
 const about = document.querySelector('.about');
+const mobileLogo = document.querySelector('.mobile_icon');
 const speakersData = [
   {
     name: 'Carlos smidth',
@@ -54,7 +55,7 @@ const speakersData = [
 function toggleActive () {
   burgerMenu.classList.toggle('inactive');
   closeIcon.classList.toggle('inactive');
-  navList.classList.toggle('inactive')
+  navList.classList.toggle('inactive');
 }
 
 burgerMenu.addEventListener('click', toggleActive);
@@ -69,6 +70,10 @@ navProgram.addEventListener('click', toggleActive);
 navSpeakers.addEventListener('click', toggleActive);
 
 navPartners.addEventListener('click', toggleActive);
+
+mobileLogo.addEventListener('click', () => {
+  window.location.assign("./index.html#");
+});
 
 // Speakers Section Dynamic Creation
 const speakersSection = document.querySelector('.speakers_section');

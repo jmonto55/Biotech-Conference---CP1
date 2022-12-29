@@ -22,6 +22,7 @@ a {
 .nav_var_mobile {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   padding: 5%;
   background-color: rgba(255, 255, 255, 0.925);
 }
@@ -42,7 +43,19 @@ a {
   position: fixed;
 }
 
+.mobile_icon {
+  display: inline-block;
+  height: 30px;
+  z-index: 99;
+  position: fixed;
+  right: 5%;
+}
+
 .inactive {
+  display: none;
+}
+
+.invisible {
   display: none;
 }
 
@@ -51,14 +64,15 @@ a {
   left: 0;
   top: 0;
   list-style: none;
-  width: 375px;
+  width: 100%;
+  max-width: 500px;
   height: 100vh;
-  background-image: url(./assets/images/background_program.jpeg);
+  background-color: #272a31;
   opacity: 0.99;
   text-align: left;
   padding: 10%;
-  font-size: 50px;
-  line-height: 80px;
+  font-size: 40px;
+  line-height: 70px;
   padding-top: 100px;
   z-index: 98;
 }
