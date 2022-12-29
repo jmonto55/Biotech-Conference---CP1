@@ -412,7 +412,7 @@ a {
 
 .about_title {
   color:#ec5242;
-  font-size: clamp(1.5rem, 6vw, 2.6rem);
+  font-size: clamp(1.5rem, 7vw, 4.6rem);
   font-weight: 900;
   text-align: center;
   margin-bottom: 15px;
