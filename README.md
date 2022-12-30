@@ -37,7 +37,7 @@
 
 # 🔬 Biotech-Conference<a name="about-project"></a>
 
-This project is a biotechnology conference web where you can see all the information about the event
+This project is a biotechnology conference web where you can see all the information about the event.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,9 +74,9 @@ This project is a biotechnology conference web where you can see all the informa
 
 ### Key Features <a name="key-features"></a>
 
-- This is the first itertation of my portfolio.
-- It contains my professional information.
-- All my porjects will be displayed in this werbsite.
+- Full responsive Home and About sections.
+- Featured speakers dynamically created using JavaScript.
+- Mobile Menu functionaluity implemented in JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +101,7 @@ In order to run this project you need: any functional browser.
 ### Setup
 
 Clone this repository to your desired folder:
-cd my-folder git clone [@jmonto55](https://github.com/jmonto55/Portfolio)
+cd my-folder git clone [@jmonto55](https://github.com/jmonto55/Biotech-Conference-CP1.git)
 
 ### Install
 
@@ -131,6 +131,7 @@ N/A
 👤 **Jose**
 
 - GitHub: [@jmonto55](https://github.com/jmonto55)
+- Behance: [Cindy Shin](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,8 +139,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Next version will have the projects section**
-- [ ] **Next version will have a live demo to my most complex project**
+- [ ] **Next version will have the tickets section**
+- [ ] **Next version will have a live demo to the finished product**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
