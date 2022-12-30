@@ -128,10 +128,12 @@ N/A
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Jose**
+👤 **Jose Montoya**
 
-- GitHub: [@jmonto55](https://github.com/jmonto55)
-- Behance: [Cindy Shin](https://www.behance.net/adagio07)
+- GitHub: [@jmonto55](https://github.com/jmonto55) Developer
+
+👤 **Cindy Shin**
+- Behance: [@adagio07](https://www.behance.net/adagio07) Designer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
