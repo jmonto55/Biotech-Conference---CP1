@@ -488,7 +488,7 @@ a {
 
 .past_img_one {
   width: 350px;
-  background-image: url(./assets/images/about_img_one.jpg);
+  background-image: url(./assets/images/about_img_one.jpeg);
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -500,7 +500,7 @@ a {
 
 .past_img_two {
   width: 350px;
-  background-image: url(./assets/images/about_img_two.jpg);
+  background-image: url(./assets/images/about_img_two.jpeg);
   background-size: cover;
   height: 250px;
   display: flex;
