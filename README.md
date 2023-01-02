@@ -169,7 +169,7 @@ If you like this project please share it with your contacts.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse team for the information provided.
+I would like to thank Microverse team for the information provided and [Cindy Shin](https://www.behance.net/adagio07) for the awesome design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
