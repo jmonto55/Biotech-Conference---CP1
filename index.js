@@ -8,42 +8,42 @@ const mobileLogo = document.querySelector('.mobile_icon');
 const speakersData = [
   {
     name: 'Carlos smidth',
-    title: 'Professor of Biotechnology at ULC Berkeley, California',
+    title: 'Professor of Biotechnology at ULC Berkeley',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_one.jpg',
   },
 
   {
     name: 'Benjamin Bottom',
-    title: 'Investor and chairman of BLP ventures, Vancouver',
+    title: 'Investor and chairman of BLP ventures',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_two.jpg',
   },
 
   {
     name: 'David Kurvalrtz',
-    title: 'Bioethicist, autor of the book: editing human germline, Harvard, Boston',
+    title: 'Bioethicist, autor of the book: editing human germline, Harvard',
     description: 'he has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_three.jpg',
   },
 
   {
     name: 'Alexa Van Dourzem',
-    title: 'Molecular Genetist, CEO of customRNA Labs, San Mateo, California',
+    title: 'Molecular Genetist, CEO of customRNA Labs, San Mateo',
     description: 'she has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_four.jpg',
   },
 
   {
     name: 'Juliana Franco',
-    title: 'Director of the Metabolic and Cancer Research Center, Barcelona',
+    title: 'Director of the Metabolic and Cancer Research Center',
     description: 'she has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_five.jpg',
   },
 
   {
     name: 'Irina Jakovkish',
-    title: 'Transhumanism art creator, director of the Modern Art Museum, Vienna',
+    title: 'Transhumanism art creator, director of the Modern Art Museum',
     description: 'she has worked in numerous projects in the anti cancer field in 2019 he sintetized a vaccine capable of curing several types of Leukemia',
     photo: './assets/speakers/speaker_six.jpg',
   },
