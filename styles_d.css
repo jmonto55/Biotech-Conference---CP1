@@ -566,11 +566,9 @@ a {
     box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
     display: none;
   }
-  
   a {
     text-decoration: none;
   }
-  
   .nav_var_mobile {
     width: 100%;
     display: flex;
