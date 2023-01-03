@@ -119,6 +119,7 @@ a {
 
 .headline_two {
   background-image: url(./assets/images/background_r.jpg);
+  display: block;
   -webkit-background-clip: text;
   color: transparent;
   font-size: 8vw;
@@ -413,6 +414,7 @@ a {
 }
 
 .about_title {
+  display: block;
   color: #ec5242;
   font-size: 7vw;
   font-weight: 900;
