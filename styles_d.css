@@ -566,9 +566,11 @@ a {
     box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
     display: none;
   }
+
   a {
     text-decoration: none;
   }
+
   .nav_var_mobile {
     width: 100%;
     display: flex;
@@ -576,7 +578,7 @@ a {
     padding: 5%;
     background-color: rgba(255, 255, 255, 0.925);
   }
-  
+
   .burger_icon {
     display: inline-block;
     width: 25px;
@@ -585,7 +587,7 @@ a {
     z-index: 99;
     cursor: pointer;
   }
-  
+
   .close_icon {
     display: inline-block;
     width: 25px;
@@ -594,7 +596,7 @@ a {
     position: fixed;
     cursor: pointer;
   }
-  
+
   .mobile_icon {
     display: inline-block;
     height: 30px;
@@ -603,15 +605,15 @@ a {
     right: 5%;
     cursor: pointer;
   }
-  
+
   .inactive {
     display: none;
   }
-  
+
   .invisible {
     display: none;
   }
-  
+
   .nav_var_list_m {
     position: fixed;
     left: 0;
@@ -629,21 +631,21 @@ a {
     padding-top: 100px;
     z-index: 98;
   }
-  
+
   .nav_list_li_m {
     margin-top: 30px;
   }
-  
+
   .nav_li {
     color: #ec5242;
     font-weight: 400;
   }
-  
+
   .nav_li:hover {
     color: #fff;
     font-weight: 400;
   }
-  
+
   .home_section {
     width: 100%;
     height: auto;
@@ -651,7 +653,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .welcome_container {
     width: 100%;
     height: auto;
@@ -662,13 +664,13 @@ a {
     padding: 4.5%;
     padding-top: 60px;
   }
-  
+
   .headline_one {
     color: #eb5234;
     font-size: 4vw;
     font-weight: 400;
   }
-  
+
   .headline_two {
     background-image: url(./assets/images/background_r.jpg);
     display: block;
@@ -677,7 +679,7 @@ a {
     font-size: 8vw;
     font-weight: 900;
   }
-  
+
   .headline_text {
     width: 100%;
     max-width: 500px;
@@ -688,19 +690,19 @@ a {
     color: #3e3e3e;
     background-color: #f7f7f7;
   }
-  
+
   .headline_date {
     font-size: 3vw;
     font-weight: 900;
     color: #3e3e3e;
     margin-bottom: 10px;
   }
-  
+
   .headline_site {
     color: #3e3e3e;
     margin-bottom: 50px;
   }
-  
+
   .program_section {
     width: 100%;
     max-height: 1200px;
@@ -710,7 +712,7 @@ a {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .progam_section_title {
     color: #fff;
     width: 160px;
@@ -718,19 +720,19 @@ a {
     text-align: center;
     margin-top: 28px;
   }
-  
+
   .program_line {
     width: 30px;
     border-color: #ec5242;
   }
-  
+
   .program_container {
     margin-top: 48px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-  
+
   .program_container_child {
     background-color: rgba(255, 255, 255, 0.178);
     margin: 2px;
@@ -741,19 +743,19 @@ a {
     align-items: center;
     max-width: none;
   }
-  
+
   .program_container_child:hover {
     transform: scale(1.04);
     border: solid #fff 1px;
   }
-  
+
   .program_title {
     color: #ec5242;
     margin: 15px 0 15px 0;
     width: 20%;
     font-size: 18px;
   }
-  
+
   .program_text {
     color: #fff;
     width: 60%;
@@ -761,18 +763,18 @@ a {
     font-size: 15px;
     padding-left: 30px;
   }
-  
+
   .program_section_footer {
     display: none;
   }
-  
+
   .program_section_footer_m {
     color: #fff;
     background-color: #ec5242;
     padding: 7%;
     margin: 35px 0;
   }
-  
+
   .ponents_icon {
     display: inline-block;
     width: 35px;
@@ -781,7 +783,7 @@ a {
     background-size: cover;
     margin-right: 10px;
   }
-  
+
   .exhibition_icon {
     display: inline-block;
     width: 35px;
@@ -790,7 +792,7 @@ a {
     background-size: cover;
     margin-right: 10px;
   }
-  
+
   .forum_icon {
     display: inline-block;
     width: 40px;
@@ -799,7 +801,7 @@ a {
     background-size: cover;
     margin-right: 10px;
   }
-  
+
   .workshop_icon {
     display: inline-block;
     width: 35px;
@@ -808,7 +810,7 @@ a {
     background-size: cover;
     margin-right: 10px;
   }
-  
+
   .network_icon {
     display: inline-block;
     width: 35px;
@@ -817,14 +819,14 @@ a {
     background-size: cover;
     margin-right: 10px;
   }
-  
+
   .speakers_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
   }
-  
+
   .speakers_sections_title {
     width: 100%;
     text-align: center;
@@ -832,19 +834,19 @@ a {
     margin-bottom: 20px;
     font-size: 28px;
   }
-  
+
   .speakers_line {
     width: 30px;
     border-color: #ec5242;
   }
-  
+
   .speakers_container {
     display: flex;
     flex-wrap: wrap;
     padding: 3%;
     justify-content: center;
   }
-  
+
   .speaker {
     display: flex;
     width: 100%;
@@ -854,17 +856,17 @@ a {
     margin-top: 38px;
     text-align: left;
   }
-  
+
   .speaker_img_container {
     position: relative;
   }
-  
+
   .speaker_img {
     width: 120px;
     height: 120px;
     position: relative;
   }
-  
+
   .speaker_background {
     display: inline-block;
     width: 70px;
@@ -873,19 +875,19 @@ a {
     left: -15px;
     top: -15px;
   }
-  
+
   .speaker_info {
     width: 70%;
     padding-left: 2%;
     display: flex;
     flex-direction: column;
   }
-  
+
   .speaker_name {
     margin-bottom: 5px;
     font-size: 18px;
   }
-  
+
   .speaker_title {
     color: #ec5242;
     margin-bottom: 10px;
@@ -893,16 +895,16 @@ a {
     font-weight: 400;
     font-size: 15px;
   }
-  
+
   .speaker_line {
     width: 20px;
     margin-bottom: 7px;
   }
-  
+
   .speaker_text {
     font-size: 13px;
   }
-  
+
   .partners_container {
     padding: 0 9px;
     width: 100%;
@@ -913,7 +915,7 @@ a {
     align-items: center;
     justify-content: space-evenly;
   }
-  
+
   .partners {
     width: 100%;
     display: flex;
@@ -922,14 +924,14 @@ a {
     align-items: center;
     margin: 20px 0 65px 0;
   }
-  
+
   .pr {
     height: 35px;
     display: inline-block;
     margin: 15px;
     margin-top: 24px;
   }
-  
+
   .last_footer {
     display: flex;
     justify-content: space-between;
@@ -938,7 +940,7 @@ a {
     width: 100%;
     padding: 5%;
   }
-  
+
   .footer_logo {
     display: inline-block;
     width: 100%;
@@ -947,13 +949,13 @@ a {
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .last_footer p {
     margin-top: 30px;
     width: 100%;
     text-align: center;
   }
-  
+
   /* About Me Page */
   .about_container {
     width: 100%;
@@ -965,7 +967,7 @@ a {
     padding: 5%;
     padding-top: 50px;
   }
-  
+
   .about_title {
     display: block;
     color: #ec5242;
@@ -974,12 +976,12 @@ a {
     text-align: center;
     margin-bottom: 15px;
   }
-  
+
   .about_line {
     width: 25px;
     border-color: #ec53426c;
   }
-  
+
   .about_text {
     max-width: 100%;
     line-height: 150%;
@@ -991,17 +993,17 @@ a {
     text-align: center;
     margin-bottom: 40px;
   }
-  
+
   .about_site {
     text-align: center;
   }
-  
+
   .about_mail {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 50px;
   }
-  
+
   .logo_section {
     width: 100%;
     display: flex;
@@ -1011,28 +1013,28 @@ a {
     text-align: center;
     border-top: solid #f1f1f1 2px;
   }
-  
+
   .logo_title {
     margin: 20px;
   }
-  
+
   .logo_text {
     margin: 20px;
     width: 100%;
     text-align: center;
   }
-  
+
   .logo_container {
     padding: 5%;
     border: solid #d3d3d3 2px;
     margin: 24px;
   }
-  
+
   .logo {
     width: 60vw;
     max-width: 400px;
   }
-  
+
   .past_img_container {
     display: flex;
     flex-direction: column;
@@ -1040,7 +1042,7 @@ a {
     width: 100%;
     margin: 48px 0;
   }
-  
+
   .past_img_one {
     width: 350px;
     background-image: url(./assets/images/about_img_one.jpeg);
@@ -1052,7 +1054,7 @@ a {
     color: #fff;
     margin-bottom: 24px;
   }
-  
+
   .past_img_two {
     width: 350px;
     background-image: url(./assets/images/about_img_two.jpeg);
@@ -1064,12 +1066,12 @@ a {
     align-items: center;
     color: #fff;
   }
-  
+
   .past_title {
     font-size: 34px;
     margin: 24px;
   }
-  
+
   .about_footer {
     display: flex;
     flex-direction: column;
@@ -1079,13 +1081,13 @@ a {
     padding: 5%;
     background-color: #fff;
   }
-  
+
   .about_footer p {
     width: 100%;
     color: #000;
     text-align: center;
   }
-  
+
   .about_logo {
     display: inline-block;
     width: 100%;
@@ -1095,14 +1097,14 @@ a {
     background-repeat: no-repeat;
     margin: 24px 0;
   }
-  
+
   .headline_about {
     color: #eb5234;
     font-size: 4vw;
     font-weight: 500;
     margin-bottom: 10px;
   }
-  
+
   .one {
     display: none;
   }
