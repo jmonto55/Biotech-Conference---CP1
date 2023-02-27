@@ -117,7 +117,6 @@ To install this project:
 ```
 cd Biotech-Conference-CP1
 code .
-npm install
 ```
 
 ### Usage
