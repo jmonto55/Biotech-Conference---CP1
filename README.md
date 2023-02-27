@@ -92,31 +92,38 @@ This project is a biotechnology conference web where you can see all the informa
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy of this project and run it in your computer, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: any functional browser.
+In order to run this project you need:
+- A working computer.
+- Connection to internet.
 
 ### Setup
 
-Clone this repository to your desired folder:
-cd my-folder git clone [@jmonto55](https://github.com/jmonto55/Biotech-Conference-CP1.git)
+To get a local copy up and running follow these simple example steps.
+
+Clone this repository in the desired folder:
+```
+cd my-folder
+git clone https://github.com/jmonto55/Biotech-Conference-CP1
+.git
+```
 
 ### Install
 
-Install this project with 
+To install this project:
+```
+cd Biotech-Conference-CP1
+code .
+npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
-open your live server
+To run the project, right click on `index.html` and select `Open with Live Server`
 
-### Run tests
-
-To run tests, run the following command:
-
-N/A
 
 ### Deployment
 
