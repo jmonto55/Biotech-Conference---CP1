@@ -84,7 +84,7 @@ This project is a biotechnology conference web where you can see all the informa
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jmonto55.github.io/)
+- [Live Demo Link](https://jmonto55.github.io/Biotech-Conference-CP1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
